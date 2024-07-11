@@ -2,7 +2,7 @@ import Image from "next/image";
 import testImg from "../../public/test2.jpg";
 function PodcastCard() {
   return (
-    <div className="min-w-44 flex-1 flex flex-col justify-center gap-2">
+    <div className="min-w-44 max-w-48 flex-1 flex flex-col justify-center gap-2">
       <div>
         <Image
           src={testImg}
